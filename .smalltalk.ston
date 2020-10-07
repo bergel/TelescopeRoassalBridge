@@ -2,10 +2,10 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'TelescopeRoassal3',
+      #directory : 'src',
       #repository : 'github://TelescopeSt/TelescopeRoassal3',
       #load : [ 'default' ],
-      #platforms : [ #pharo ],
-      #version: #development
+      #platforms : [ #pharo ]
     }
   ],
 
