@@ -1,3 +1,6 @@
+language: smalltalk
+sudo: false
+
 os:
   - osx
   - linux
@@ -5,3 +8,6 @@ os:
 smalltalk:
   - Pharo64-8.0
   - Pharo64-9.0
+
+matrix:
+  fast_finish: true
